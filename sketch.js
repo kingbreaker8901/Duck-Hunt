@@ -43,7 +43,8 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(800, 780);
+  var canvas = createCanvas(800, 780);
+  canvas.parent("portrait");
   music.loop();
   music.play();
 }
