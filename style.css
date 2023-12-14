@@ -1,0 +1,13 @@
+html, body {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  color: white;
+  background-color: #002400;
+  width: 75%
+  
+}
+canvas {
+  display: block;
+  margin: auto;
+}
